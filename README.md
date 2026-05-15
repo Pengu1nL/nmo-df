@@ -19,7 +19,8 @@ nmo-df/
 │   ├── campaigns/
 │   ├── wechat/
 │   ├── xiaohongshu/
-│   └── douyin/
+│   ├── douyin/
+│   └── bilibili/
 ├── wechat/
 │   ├── ACCOUNTS.md
 │   └── 账号名称/
@@ -34,7 +35,14 @@ nmo-df/
 │       ├── exports/
 │       ├── automation/
 │       └── archive/
-└── douyin/
+├── douyin/
+│   ├── ACCOUNTS.md
+│   └── 账号名称/
+│       ├── data_raw/
+│       ├── exports/
+│       ├── automation/
+│       └── archive/
+└── bilibili/
     ├── ACCOUNTS.md
     └── 账号名称/
         ├── data_raw/
@@ -66,6 +74,7 @@ nmo-df/
 - `assets/wechat/`：只服务于微信平台发布或排版的适配素材。
 - `assets/xiaohongshu/`：只服务于小红书笔记、封面、图文卡片或短视频发布的适配素材。
 - `assets/douyin/`：只服务于抖音短视频、封面、字幕或竖屏发布的适配素材。
+- `assets/bilibili/`：只服务于 B站视频、封面、字幕、动态、专栏或合集发布的适配素材。
 
 ## 文件命名建议
 
